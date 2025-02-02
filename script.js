@@ -46,8 +46,23 @@ function playRound(computer, human){
     }
 }
 
-const compt = getComputerChoice();
-const human = getHumanChoice();
-console.log(playRound(compt, human));
-console.log(`comp: ${computerScore}, human: ${humanScore}`);
+function playGames(){
+    let rounds = 0;
+    while (rounds < 5){
+        const compt = getComputerChoice();
+        const human = getHumanChoice();
+        console.log(playRound(compt, human));
+        rounds++;
+    }
+    console.log(`Final Score= Computer(${computerScore}):Player(${humanScore})`);
+    if (computerScore > humanScore){
+        console.log("You Lose!");
+    }else if (computerScore == humanScore){
+        console.log("It's a tie!");
+    }else {
+        console.log("You Win!");
+    }
+}
+
+playGames();
 
