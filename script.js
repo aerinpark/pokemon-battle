@@ -1,6 +1,6 @@
 const CHOICES = ["rock", "paper", "scissors"];
 let humanScore = 0;
-let computerScore = 5;
+let computerScore = 0;
 let gameOn = true;
 
 const buttons = document.querySelectorAll("button");
