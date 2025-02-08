@@ -1,0 +1,73 @@
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 5px;
+	padding: 10px;
+	margin: 0;
+	font-size: 30px;
+	color: red;
+}
+
+.game {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+	justify-content: space-evenly;
+	height: 100%;
+	width: 100%;
+}
+
+.game-board {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.battle-board {
+	border: 2px solid black;
+	height: 50vh;
+	width: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.msg {
+	align-self: center;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+button {
+	font-size: 20px;
+	text-align: center;
+	width: 150px;
+	height: 70px;
+}
+
+.buttons img {
+	height: 100%;
+	width: auto;
+}

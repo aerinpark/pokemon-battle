@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="title">
+        <h1>Battle Time!</h1>
+    </div>
+    <div class="game">
+        <div class="game-board">
+            <div class="computer-life">
+                <ul>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                </ul>
+            </div>
+            <div class="battle-board">
+                <img id="opp-pokemon">
+                <div class="msg"></div>
+                <img id="player-pokemon">
+            </div>
+            <div class="player-life">
+                <ul>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                    <li>♥︎</li>
+                </ul>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="fire"><img src="./images/fireball.png"></button>
+            <button id="water"><img src="./images/waterball.png"></button>
+            <button id="grass"><img src="./images/grassball.png"></button>
+        </div>
+    </div>
+
 </body>
+
+<script src="script.js"></script>
+
 </html>
