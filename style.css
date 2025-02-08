@@ -39,6 +39,15 @@ ul {
 	border: 2px solid black;
 	height: 50vh;
 	width: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.msg {
+	align-self: center;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .buttons {
